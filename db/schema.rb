@@ -23,4 +23,12 @@ ActiveRecord::Schema.define(version: 2018_10_04_195601) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "specials", force: :cascade do |t|
+    t.integer "comedian_id"
+    t.text "name"
+    t.integer "length"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end

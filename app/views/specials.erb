@@ -1,0 +1,13 @@
+<h1> Specials</h1>
+
+
+<div >
+<% @specials.each do |special| %>
+  <ul>
+    <li>Comedian: <%= special.comedian.name %></li>
+    <li>Name: <%= special.name %></li>
+    <li>Length: <%= special.length %></li>
+
+  </ul>
+<% end %>
+</div>

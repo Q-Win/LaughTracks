@@ -1,0 +1,20 @@
+.background{
+  background-color: rgb(202,225,202);
+
+}
+
+.stats {
+  font-size: 25px;
+  padding-left: 20px;
+
+}
+
+.comedians {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.specials {
+  font-size: 20px;
+}
