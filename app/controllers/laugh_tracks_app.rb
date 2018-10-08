@@ -22,8 +22,8 @@ set :root, File.expand_path("..", __dir__)
   end
 
   get '/comedians/:id' do
-    @comedian = comedian.find(params[:id])
-    erb :"comedians/show"
+    @comedian = Comedian.find(params[:id])
+    erb :show
   end
 
 end

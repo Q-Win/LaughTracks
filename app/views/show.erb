@@ -1,0 +1,11 @@
+<ul>
+  <li>Name: <%= @comedian.name %></li>
+  <li>Age: <%= @comedian.age %></li>
+  <li >Birthplace: <%= @comedian.city %></li>
+  <li>Specials:  <%@comedian.specials.each do |s| %>
+    <ul>
+      <li>  <%=s.name%> - Run time: <%=s.length%></li>
+    </ul>
+    <%end%>
+  </li>
+</ul>
